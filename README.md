@@ -14,5 +14,5 @@
 
 * 더 공부하고 싶은 분야  
 언어: Rust, Kotlin  
-환경/솔루션: Redis, gRPC, Hadoop
-지식: Cloud Engineering, Network Authentication, 
+환경/솔루션: Redis, gRPC, Hadoop  
+지식: Cloud Engineering, Network Authentication
