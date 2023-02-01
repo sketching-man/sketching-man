@@ -1,30 +1,40 @@
-Operating Systems: You should understand processes, threads, concurrency issues,
-locks, mutexes, semaphores, monitors and how they all work. Understand deadlock,
-livelock and how to avoid them. Know what resources a process needs and a thread
-needs. Understand how context switching works, how it's initiated by the operating
-system and underlying hardware. Know about scheduling and the fundamentals of
+# OS 기본
+
+> Operating Systems: You should understand processes, threads, concurrency issues,  
+locks, mutexes, semaphores, monitors and how they all work. Understand deadlock,  
+livelock and how to avoid them. Know what resources a process needs and a thread  
+needs. Understand how context switching works, how it's initiated by the operating  
+system and underlying hardware. Know about scheduling and the fundamentals of  
 "modern" concurrency constructs.
 
-운영체제:
-메인 메모리의 영역 (code, data, stack, heap)
-프로그램이 실행되면 운영체제는 메인 메모리에 4 종류의 메모리 공간을 할당해준다.
-Code 영역: 프로그램의 소스 코드가 저장되는 영역이다. CPU는 코드 영역에 저장된 명령어 (소스, 함수, 제어문)를 가져와서 처리한다.
-Data 영역: 전역 변수와 정적 변수가 저장되는 영역이다. 프로그램 시작과 함께 할당되며, 프로그램이 종료되면 소멸한다.
-Stack 영역: 프로그램이 사용하는 임시 메모리 영역이며 함수의 호출과 관계되는 지역 변수와 매개 변수가 저장되는 영역이다.
-	   함수의 호출과 함께 할당되며, 함수가 종료되면 소멸한다. 함수의 호출 구조가 스택 자료 구조 (LIFO)와 동일하기에 스택으로 구현된다. 컴파일 타임에 영역의 크기가 결정된다.
-Heap 영역: 사용자에 의해 메모리 공간이 동적으로 할당되고 해제되는 영역이다. 즉, 동적 할당을 통해 생성된 동적 변수를 관리하기 위한 영역이다. 런타임에 영역의 크기가 결정된다.
+# 메인 메모리의 영역 (code, data, stack, heap)
 
-프로세스 vs 쓰레드
-프로세스: “컴퓨터에서 연속적으로 실행되고 있는 컴퓨터 프로그램”
-	각각 독립된 메모리 영역(Code, Data, Stack, Heap의 구조)을 할당
-	최소 하나의 메인 쓰레드를 가짐
-	각 프로세스는 별도의 주소 공간에서 실행되며, 한 프로세스는 다른 프로세스의 변수나 자료구조에 접근 불가. 접근하기 위해서는 IPC 필요.
-	(https://junyongs.wordpress.com/2014/01/19/process-%ea%b0%84-%ed%86%b5%ec%8b%a0-%eb%b0%a9%eb%b2%95-inter-process-communication-ipc/)
-쓰레드: “컴퓨터에서 연속적으로 실행되고 있는 컴퓨터 프로그램”
-	프로세스 내에서 각각 Stack만 따로 할당받고 Code, Data, Heap 영역은 공유
-	한 스레드가 프로세스 자원을 변경하면, 다른 이웃 스레드(sibling thread)도 그 변경 결과를 즉시 볼 수 있다
+프로그램이 실행되면 운영체제는 메인 메모리에 4 종류의 메모리 공간을 할당해준다.  
+* Code 영역: 프로그램의 소스 코드가 저장되는 영역이다.  
+CPU는 코드 영역에 저장된 명령어 (소스, 함수, 제어문)를 가져와서 처리한다.
+* Data 영역: 전역 변수와 정적 변수가 저장되는 영역이다.  
+프로그램 시작과 함께 할당되며, 프로그램이 종료되면 소멸한다.
+* Stack 영역: 프로그램이 사용하는 임시 메모리 영역이며 함수의 호출과 관계되는 지역 변수와 매개 변수가 저장되는 영역이다.  
+함수의 호출과 함께 할당되며, 함수가 종료되면 소멸한다.  
+함수의 호출 구조가 스택 자료 구조 (LIFO)와 동일하기에 스택으로 구현된다.  
+컴파일 타임에 영역의 크기가 결정된다.
+* Heap 영역: 사용자에 의해 메모리 공간이 동적으로 할당되고 해제되는 영역이다.  
+즉, 동적 할당을 통해 생성된 동적 변수를 관리하기 위한 영역이다.  
+런타임에 영역의 크기가 결정된다.
 
-IPC란?
+# 프로세스 vs 쓰레드
+
+* 프로세스: “컴퓨터에서 연속적으로 실행되고 있는 컴퓨터 프로그램”  
+각각 독립된 메모리 영역(Code, Data, Stack, Heap의 구조)을 할당  
+최소 하나의 메인 쓰레드를 가짐  
+각 프로세스는 별도의 주소 공간에서 실행되며, 한 프로세스는 다른 프로세스의 변수나 자료구조에 접근 불가. 접근하기 위해서는 IPC 필요.  
+https://junyongs.wordpress.com/2014/01/19/process-%ea%b0%84-%ed%86%b5%ec%8b%a0-%eb%b0%a9%eb%b2%95-inter-process-communication-ipc/
+* 쓰레드: “컴퓨터에서 연속적으로 실행되고 있는 컴퓨터 프로그램”  
+프로세스 내에서 각각 Stack만 따로 할당받고 Code, Data, Heap 영역은 공유  
+한 스레드가 프로세스 자원을 변경하면, 다른 이웃 스레드(sibling thread)도 그 변경 결과를 즉시 볼 수 있다
+
+# IPC란?
+
 multiple threads in one or more processes 간의 데이터 통신 방법들.
 File: 다양한 프로세스들이 접근 가능한 파일에 써놓는 방법. lock 필요.
 Signal: 한 프로세스에서 다른 프로세스로 system message 를 보냄. 대용량 불가.
