@@ -1,9 +1,14 @@
-# You indicated that you like to go to the movies. What is your favorite genre of movies? Why do you like those types of moveis?
+# You indicated that you like to go to the movies. What is your favorite genre of movies? Why do you like those types of movies?
 
+[장르 1: 스릴러] 
+
+
+[장르 2: 블록버스터]
 
 
 # Who is your favorite movie actor or actress? Tell me a specific story about something this actor did that you heard about in the news. Begins the story with some details about the actor or actress and then tell me all the detail of what happened.
 
+[배우: ]
 
 
 # I'd like you to tell me about one of the most memorable movies you've seen. What is the story about? Who was the main actor or actress? How did the movie affect you?
