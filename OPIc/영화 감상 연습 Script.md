@@ -1,7 +1,7 @@
 # You indicated that you like to go to the movies. What is your favorite genre of movies? Why do you like those types of movies?
 
 [장르 1: 스릴러] 
-
+I used to watch some thriller movies when I was a teenager. I have no idea why in this moment of time, but I guess maybe me in that time I 
 
 [장르 2: 블록버스터]
 
