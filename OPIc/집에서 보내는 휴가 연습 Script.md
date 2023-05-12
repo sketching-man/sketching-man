@@ -20,3 +20,7 @@ So, my second option would taking them to movie theater and watching a movie tha
 
 
 # Tell me about the last time you spent your vacation at home. How did your vacation start and end? What did you do? Did you meet someone? Describe everything that you did for me.
+
+[대부분 큰 차이는 없다. 집에서 아내와 쉬거나 친구 만나서 커피 마시기.]
+
+[아니면 집에서 차 타고 10분 거리에 멋진 outlet shopping center가 있음. 여길 방문해서 옷 사는 것도 즐긴다.]
