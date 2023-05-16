@@ -12,7 +12,11 @@ Then, two rooms are remaining. One is for my wife, and another is for me. We dec
 
 # I would like to know where you live. Which is your favorite room at home? What does it look like? What do you mostly do there?
 
-[침실을 제일 좋아한다. 내가 사랑하는 것들이 몇 가지 있는데, 그 중 제일은 내 아내, 그리고 그 다음이 푹 쉬는 것. Taking a deep rest? 침실은 이 모든걸 만족시키는 멋진 공간. satisfies all these requirements.]
+[어디?] 침실을 제일 좋아한다. 
+
+[이유?] 내가 사랑하는 것들이 몇 가지 있는데, 그 중 제일은 내 아내, 그리고 그 다음이 푹 쉬는 것. Taking a deep rest? 침실은 이 모든걸 만족시키는 멋진 공간. satisfies all these requirements.
+
+[뭘 하지?] 잠 자는게 일단 제일 많고, 누워서 휴대폰 하는 것, 아내와 넷플릭스 보기. 아, 알지는 모르겠지만, 요새 닌텐도 스위치라고 좋은 gaming console이 있다구. when u put this in the dock, connected with TV, then it becomes a video game console with TV. and when you pull it off and grab in your hand, it has its own screen and you can play it while you carry it. 누워서 이런 게임을 하는 것도 좋아. 날 웃게 만들지.
 
 # Please tell me about your living room. What things are in your living room? Name the things you see in your living room.
 
