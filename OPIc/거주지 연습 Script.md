@@ -12,7 +12,7 @@ Then, two rooms are remaining. One is for my wife, and another is for me. We dec
 
 # I would like to know where you live. Which is your favorite room at home? What does it look like? What do you mostly do there?
 
-
+[침실을 제일 좋아한다. 내가 사랑하는 것들이 몇 가지 있는데, 그 중 제일은 내 아내, 그리고 그 다음이 푹 쉬는 것. Taking a deep rest? 침실은 이 모든걸 만족시키는 멋진 공간. satisfies all these requirements.]
 
 # Please tell me about your living room. What things are in your living room? Name the things you see in your living room.
 
