@@ -10,6 +10,8 @@ oh, story was too long. let's get back to our topic. so this is the reason why I
 
 # What do you usually do at car? Tell me thing you do when you are at car.
 
+[하는 것] 운전하는 데 쓰지. 대답하면서 생각한건데, 내가 정말 내 차를 원래 목적 그대로만 쓰는구나 라고 생각했어. 왜냐하면, 내 친구들 중 어떤 친구는 차를 노래방처럼 쓰는 친구들도 있거든.
+
 
 
 # Do you have any memorable experience while you drive a car? Tell me when it was and what happened. How did you resolve the situation?
